@@ -38,9 +38,9 @@ export default (ComponentStyle) => {
             children.push(createElement('template', { slot }, this.$slots[slot]))
           }
         }
-        const element = this.$props.as
+        const element = this.$props.as || target
         return createElement(
-          isVueComponent(target) ? target : element || target,
+          isVueComponent(target) ? target : element,
           {
             class: [this.generatedClassName],
             props: this.$props,

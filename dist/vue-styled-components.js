@@ -2956,8 +2956,8 @@
             }
           }
 
-          var element = this.$props.as;
-          return createElement(isVueComponent(target) ? target : element || target, {
+          var element = this.$props.as || target;
+          return createElement(isVueComponent(target) ? target : element, {
             "class": [this.generatedClassName],
             props: this.$props,
             domProps: {
