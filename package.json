@@ -53,7 +53,7 @@
     "babel-plugin-add-module-exports": "^1.0.2",
     "chai": "^4.1.2",
     "chokidar": "^3.0.1",
-    "danger": "^8.0.0",
+    "danger": "^11.2.0",
     "eslint": "^3.12.2",
     "eslint-config-vue": "^2.0.2",
     "eslint-plugin-vue": "^2.0.1",
