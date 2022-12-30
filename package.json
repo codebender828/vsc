@@ -63,7 +63,7 @@
     "jsdom-global": "^3.0.2",
     "lint-staged": "^3.2.4",
     "lodash": "^4.15.0",
-    "mocha": "^6.1.4",
+    "mocha": "^10.2.0",
     "node-watch": "^0.4.1",
     "pre-commit": "^1.2.2",
     "rollup": "^1.15.5",
